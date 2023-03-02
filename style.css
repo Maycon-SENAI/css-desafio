@@ -1,38 +1,82 @@
-/* Flex */
-.flex {
+/* .menu {
 	display: flex;
+	justify-content: center; 
+	align-items: center;
+	border: 2px solid #0000ff;
+	position: fixed;
+	right: 50%;
+	bottom: 50%;
 }
 
-.flex-wrap {
-	flex-wrap: wrap;
+.base {
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	border-radius: 50% 30% 15% 7%;
+	border: 2px dotted;
+} */
+
+.menu {
+	display: flex;
+	justify-content: space-between;
 }
 
-.flex-item-1 {
-	flex: 1;
+.circulo-1 {
+	border: solid 1px black;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 50% 0% 0% 50%;
+
 }
 
-/* Flex Item */
-.item {
-	margin: 5px;
-	background: tomato;
+.circulo-2 {
+	border: solid 1px black;
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	border-radius: 0% 50% 50% 0%;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
 	text-align: center;
-	font-size: 1.5em;
 }
 
-.container {
-	max-width: 400px;
-	margin: 0 auto;
-	border: 1px solid #ccc;
+.footer-maycon {
+	/* border: 2px solid black; */
 }
 
-h1 {
-	text-align: center;
-	margin: 20px 0 0 0;
-	font-size: 1.25em;
-	font-weight: normal;
+span.footer-maycon {
+	background-color: red;
+	font-size: 54px;
 }
 
-body {
-	font-family: monospace;
-	color: #333;
+/* p {
+	background-color: purple;
+	position: flex;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	top: auto;
+} */
+
+.bloco-x {
+	/* border: 2px solid cyan; */
+	width: 12px;
+	height: 12px;
+	position: fixed;
+	left: 700px;
+	right: 20px;
+	top: 350px;
+	bottom: 20px;
+}
+
+.p-name {
+	font-family: 'Times New Roman', Times, serif;
 }
